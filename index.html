@@ -5,26 +5,38 @@
         <title>Discord RickRoll RPC</title>
         <style>
             body {
-                font-family: 'Open Sans', sans-serif;
-                line-height: 1.75em;
-	            font-size: 16px;
+	              font-family: 'Open Sans', sans-serif;
+	              line-height: 1.75em;
+	              font-size: 16px;
                 background-image: url("ahyes.gif");
                 background-repeat: no-repeat;
                 background-size: cover;
-	            color: rgb(224, 25, 25);
+	              color: rgb(224, 25, 25);
                 text-align: center;
 				margin: 0px;
-                background: rgb(0,0,0);
-                opacity: 0.85;
             }
-		</style>
+			
+			.box {
+    background: rgb(0,0,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+  }
+			</style>
     </head>
     <body>
+	<div class="box">
         <h1>Discord RickRoll RPC</h1>
         <p>This is a fun little project that RickRolls people via your Discord status. You can download a EXE here or grab the Source Code from GitHub. If youre on Mac OSX or the EXEs dont work, check out the Source Code version.<br>
         Download: <a href="https://github.com/BastelPichi/discord-rpc-rickroll/releases/download/0.1/windows.exe" target="_blank">Windows</a><br>
         Download: <a href="https://github.com/BastelPichi/discord-rpc-rickroll/releases/download/0.1/linux" target="_blank">Linux</a><br>
         <a href="https://github.com/BastelPichi/discord-rpc-rickroll" target="_blank">Source Code</a></p>
         <p style="text-align: center; position: fixed; bottom: 0; width: 100%;">Made with ❤️ by BastelPichi. This page is Open Source - You can improve it <a href="https://github.com/BastelPichi/discord-rpc-rickroll/tree/gh-pages">here</a>.</p>
+    </div>
 	</body> 
 </html>
